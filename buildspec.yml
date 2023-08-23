@@ -7,3 +7,9 @@ phases:
   build:
     commands:
       - mvn test
+
+  reports:
+    Selenium:
+      file-format: html
+      files:
+        - target/surefire-reports/index.html
