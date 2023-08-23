@@ -1,0 +1,1 @@
+{"uuid":"aa60b713-adb2-496d-80cb-ac99890c554e","name":"EdgeTest","children":["282209bf-6afe-4617-a1b6-01f3db086949"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1692745403048,"stop":1692745409669}],"afters":[],"links":[],"start":1692745403014,"stop":1692745416533}

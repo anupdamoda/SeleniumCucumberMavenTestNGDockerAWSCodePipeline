@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-23T00:43:01Z" name="Suite" finished-at="2023-08-23T00:43:15Z" duration-ms="13321">
+    <groups>
+    </groups>
+    <test started-at="2023-08-23T00:43:01Z" name="ChromeTest" finished-at="2023-08-23T00:43:14Z" duration-ms="12956">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:runner.TestRunner@3569fc08]" started-at="2023-08-23T00:43:01Z" name="setup" finished-at="2023-08-23T00:43:10Z" duration-ms="8374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="features()[pri:0, instance:runner.TestRunner@3569fc08]" started-at="2023-08-23T00:43:10Z" name="features" finished-at="2023-08-23T00:43:14Z" duration-ms="4407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- features -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-08-23T00:43:01Z" name="EdgeTest" finished-at="2023-08-23T00:43:14Z" duration-ms="13080">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:runner.TestRunner@2371aaca]" started-at="2023-08-23T00:43:01Z" name="setup" finished-at="2023-08-23T00:43:10Z" duration-ms="8590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="features()[pri:0, instance:runner.TestRunner@2371aaca]" started-at="2023-08-23T00:43:10Z" name="features" finished-at="2023-08-23T00:43:14Z" duration-ms="4472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- features -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-08-23T00:43:01Z" name="FirefoxTest" finished-at="2023-08-23T00:43:15Z" duration-ms="13321">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:runner.TestRunner@781f10f2]" started-at="2023-08-23T00:43:01Z" name="setup" finished-at="2023-08-23T00:43:10Z" duration-ms="8919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="features()[pri:0, instance:runner.TestRunner@781f10f2]" started-at="2023-08-23T00:43:10Z" name="features" finished-at="2023-08-23T00:43:14Z" duration-ms="4384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- features -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
